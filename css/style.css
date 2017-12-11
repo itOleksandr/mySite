@@ -141,6 +141,15 @@ h2{
 /* #FirstSelection :nth-child(2){
 
 } */
+
 #laptop{
     margin: 167px 0px 0 284px;
+    padding: 0;
+}
+#laptopH {
+    font-size: 30pt;
+    margin-bottom:35px;
+}
+.laptopP{
+    margin-bottom: 30px;
 }
