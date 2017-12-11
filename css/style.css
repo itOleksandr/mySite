@@ -1,0 +1,115 @@
+/********************Fix padding*********************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/********************Fix padding*********************/
+#wrapper{
+    width: 1280px;
+    height: 1000px;
+    margin:auto;
+}
+header{
+    background-image: url("../images/header/bg.png");
+    height: 480px;
+    
+}
+#ContainerForLogoAndMenu{
+    height: 140px;
+    display: flex;
+}
+#logoContainer{
+    width:222px;
+    height:75px;
+    margin-top: 55px;
+    margin-left: 220px;
+}
+#containerMenu{
+    width: 600px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+#containerMenu ul a{
+text-decoration: none;
+}
+#containerMenu ul a li{
+    display: inline-block;
+    color: white;
+    font-size: 19pt;
+    padding-left: 42px;
+}
+/* *****************banner */
+/* #banner{
+display: flex;
+width: 400px;
+height: 100%;
+}
+
+#imgForBanner{
+    margin: 65px 0px 0px 245px;
+}
+h1{
+color: white;
+font-size: 50pt;
+}
+h2{
+    color: white;
+    font-size: 33pt;
+}
+#textandbutton {
+    margin: 102px 0 0 60px;
+}
+
+#shapeL{
+    margin: 137px 0 0 -535px;
+}
+#shapeR{
+    margin: 0 0 0 0 ;
+} */
+#containerForBanner{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    font-size: 50pt;
+}
+h2{
+        color: white;
+        font-size: 33pt;
+}
+#leftShape{
+    margin: 139px 0px 0 52px;
+}
+#rightShape{
+    margin: 140px 54px 0 0;
+}
+#imgForBanner{
+    margin: 59px 0 0 -57px;
+}
+#textAndButton{
+    margin: 99px 0 0 0;
+}
+#blockForImgAndText{
+   width: 750px;
+    display: flex;
+    justify-content: space-around;
+
+}
