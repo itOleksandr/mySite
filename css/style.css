@@ -115,7 +115,7 @@ h2{
 }
 #FirstSection{
     width: 100%;
-    height: 90px;
+    height: 250px;
     display:flex;
     justify-content: center;
     margin-top:100px;
@@ -141,15 +141,82 @@ h2{
 /* #FirstSelection :nth-child(2){
 
 } */
-
+/* /***************LAPTOP */
 #laptop{
-    margin: 167px 0px 0 284px;
-    padding: 0;
+    width: 100%;
+    height: 785px;
+    display: flex;
+    flex-direction: column;
+
 }
-#laptopH {
+#wrapperForLaptop{
+   display: flex;
+   justify-content: center;
+   margin-top: 82px;;
+}
+#wrapperFortext{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#laptopH{
     font-size: 30pt;
-    margin-bottom:35px;
+    color: #5b5b5b;
+    margin-top: 15px;
+    margin-left: 185px;
 }
 .laptopP{
-    margin-bottom: 30px;
+    width: 900px;
+    margin-left: 188px;
+    margin-top: 25px;
+    color: #929292;
+}
+/* /***************LAPTOP offffffffff */
+#whyChose{
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 45px;
+    margin-left: 114px;;
+}
+#questions ul li{
+list-style-image: url("../images/why/shape.png");
+margin-top: 22px;
+margin-left: 63px;
+height: 18px;
+padding-left: 4px;
+color: #8a8888;
+}
+#questions ul {
+    text-decoration: none;
+}
+h6{
+    color: #727272;
+    font-size: 25pt;
+    margin-top: 29px;
+    margin-left: 34px;
+}
+#whyChose{
+    height: 400px;
+}
+/* #line{
+    border:1px solid #08C958;
+    width: 100%;
+} */
+#forms{
+    height: 180px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+#memberLogin{
+    width:470px;
+    height:108px;
+    background-color:#e67624;
+
+}
+#subscribe{
+    width:470px;
+    height:108px;
+    background-color:#01d4f3;
 }
